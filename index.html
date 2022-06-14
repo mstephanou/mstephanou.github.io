@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b15ef3539d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>MStephanou Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">My Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Intoduction-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi there, I'm <strong>Michael.</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">web developer</p>
+      <img
+        src="./images/IMG_5387.jpg"
+        alt="a picture of michael"
+        class="intro__img"
+      />
+    </section>
+
+    <!--My skills-->
+    <section class="my-skills" id="skills">
+      <h2 class="section__title section__title--skills">My skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3>Languages + Frameworks</h3>
+          <p>
+            JS | React.js | HTML | CSS | Bulma | Python | Django | Mongoose |
+            Node.js | Express
+          </p>
+          <!--skill-->
+        </div>
+        <div class="skill">
+          <h3>Management + Deployment</h3>
+          <p>
+            GitHub | Git | Heroku | Netlify | Postman | TablePlus | Command Line
+          </p>
+          <!--skill-->
+        </div>
+        <div class="skill">
+          <h3>Databases</h3>
+          <p>PostgreSQL | MongoDB</p>
+          <!--skill-->
+        </div>
+      </div>
+      <a href="#projects" class="btn">My Projects</a>
+    </section>
+
+    <!--  About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About</h2>
+      <p class="section__subtitle section__subtitle--about">
+        dad & developer based in London.
+      </p>
+      <div class="about-me__body">
+        <p>
+          Coming from a technical theatre background, I've always felt an
+          affinity with technology and how it synergises with the arts. I first
+          started getting curious about code through video games initially,
+          which naturally directed my curiosity to webpages and wanting to know
+          how they are built, I took the opportunity to teach myself the
+          fundamentals of web development during the height of the coronavirus
+          pandemic.
+        </p>
+        <p>
+          I love to cook, especially greek cuisine. My specialty is keftedes -
+          shallow fried lamb meatballs served with bulgur wheat, greek yoghurt
+          and homemade hummus. <br />
+          I am an avid gamer and play mostly story-driven, single player games
+          by the likes of developers such as FromSoftware. <br />
+          I enjoy reading fantasy. I appreciate the works of Joe Abercrombie,
+          Brandon Sanderson, and Steven Erikson.
+          <br />
+          I am a die-hard MMA fan and never miss a UFC, Bellator or One
+          Championship event.
+        </p>
+        <p>
+          I'm also a proud dad to the most clever, loving, and funny little girl
+          imaginable. She is my source of motivation, drive, and happiness.
+        </p>
+      </div>
+      <img
+        src="./images/IMG_5899.jpg"
+        alt="dad&daughter"
+        class="about-me__img"
+      />
+    </section>
+
+    <!--My work-->
+    <section class="my-work" id="projects">
+      <h2 class="section__title section__title--work">Projects</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Please click on one to learn more
+      </p>
+
+      <div class="portfolio">
+        <!--Portfolio item 01-->
+        <a href="portfolio-item.html#frogger" class="portfolio__item">
+          <img src="./images/Frogger.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!--Portfolio item 02-->
+        <a href="portfolio-item.html#doggypedia" class="portfolio__item">
+          <img src="./images/Doggopedia.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!--Portfolio item 03-->
+        <a href="portfolio-item.html#accelerate" class="portfolio__item">
+          <img src="./images/accel.png" alt="" class="portfolio__img" />
+        </a>
+        <!--Portfolio item 04-->
+        <a href="portfolio-item.html#platformer" class="portfolio__item">
+          <img src="./images/Platformer.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <a href="mailto:mmstephanou@gmail.com" class="footer__link" id="contact"
+        >mmstephanou@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.github.com"
+            ><i class="fa fa-brands fa-github fa-sm"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com"
+            ><i class="fa fa-brands fa-linkedin fa-sm"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>
